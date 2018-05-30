@@ -14,7 +14,7 @@ class SMS:
         # start up a chrome with fixed Download directory
         options = Options()
         options.add_argument("--disable-notifications");
-        # options.set_headless(headless=True)
+        options.set_headless(headless=True)
         downloadDir="C:/Users/Rajnish/Downloads/Project/Master"
         prefs = {"download.default_directory": downloadDir,
      "download.prompt_for_download": False,
